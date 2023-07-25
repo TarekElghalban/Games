@@ -17,7 +17,7 @@ let {getAllGames , allGames , getMoreGames , count} = useContext(AllGamesContext
 useEffect(()=> { 
   getAllGames()
 } , [])
-console.log(count);
+
 return <>
 
 <div className="row mt-lg-5 gx-5 gy-3 py-lg-5 mt-5 pt-5">
